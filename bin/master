@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var Happner = require('happner');
+var Config  = require('../config/master');
+
+// Call create() factory which returns the promise of a mesh or error
+
+Happner.create(Config)
+
+.then(function(mesh) {
+  // got running mesh
+})
+
+.catch(function(error) {
+  console.error(error.stack || error.toString())
+  process.exit(1);
+});

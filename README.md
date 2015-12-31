@@ -1,6 +1,12 @@
 # happner-demo
 
-Happner demonstration
+This branch contains the result of having done walkthrough: [01 - The Basics](https://github.com/happner/happner/blob/master/docs/walkthrough/the-basics.md)
 
-### Walkthrough (01-the-basics)
 
+
+### Usage
+
+* Run bins `bin/master` and `bin/agent` from this directory so that they can find the `.env` file.
+* If you wish to connect agents running on multiple hosts, tailor the `.env` accordingly.
+* Charts per hostname/chartname are at [http://MASTER_IP:MASTER_PORT/master/app](http://127.0.0.1:50505/master/app)
+* Add more inspectors to `config/agent.js` at will.

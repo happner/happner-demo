@@ -6,6 +6,7 @@ This branch contains the result of having done walkthrough: [01 - The Basics](ht
 
 ```bash
 git clone https://github.com/happner/happner-demo.git
+cd happner-demo
 git checkout 01-the-basics
 npm install
 ```

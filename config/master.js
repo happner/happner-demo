@@ -31,7 +31,7 @@ module.exports = {
 
       web: {
         routes: {
-          // serves static content in node_modules/master/widget at http://.../master/widget
+          // serves static content in node_modules/master/app at http://.../master/app
           'app': 'static'
         }
       }
